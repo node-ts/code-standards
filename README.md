@@ -1,5 +1,7 @@
 # @node-ts/code-standards
 
+[![CircleCI](https://circleci.com/gh/node-ts/code-standards/tree/master.svg?style=svg)](https://circleci.com/gh/node-ts/code-standards/tree/master)
+
 An opinionated set of linting and build configurations for typescript projects to build modern, maintainable TypeScript projects. 
 
 ## Linting
