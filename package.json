@@ -1,0 +1,16 @@
+{
+  "name": "@node-ts/code-standards",
+  "version": "0.0.1",
+  "description": "A sane and opinionated set of linting rules for TypeScript",
+  "scripts": {
+    "deploy": "npm publish --access=public"
+  },
+  "keywords": [
+    "typescript",
+    "lint",
+    "code-standards",
+    "node"
+  ],
+  "author": "Andrew den Hertog",
+  "license": "MIT"
+}
