@@ -42,36 +42,36 @@ TypeScript options have been set in `tsconfig.json` that target Node v8 and up. 
 
 1. Install into your project along with `tslint` and `typescript`
 
-  ```sh
-  npm i @node-ts/code-standards tslint typescript --save-dev
-  ```
+    ```sh
+    npm i @node-ts/code-standards tslint typescript --save-dev
+    ```
 
 2. Copy `.editorconfig` into the root of your project. This will let your code editor confirm to many of the whitespacing rules automatically. See [Editor Config](https://editorconfig.org/) on setting up your code editor for the first time.
 
 3. Create a `tslint.json` file in the root of your project with the following contents:
 
-  ```json
-  {
-    "extends": "./node_modules/@node-ts/code-standards/tslint.json"
-  }
-  ```
+    ```json
+    {
+      "extends": "./node_modules/@node-ts/code-standards/tslint.json"
+    }
+    ```
 
 4. Create a `tsconfig.json` file in the root of your project with the following contents. You may wish to extend this with further options
 
-  ```json
-  {
-    "extends": "./node_modules/@node-ts/code-standards/tsconfig.json"
-  }
-  ```
+    ```json
+    {
+      "extends": "./node_modules/@node-ts/code-standards/tsconfig.json"
+    }
+    ```
 
 5. Add the following to the `scripts` block in your project's `package.json`:
 
-  ```json
-  {
-    "lint": "tslint --project tsconfig.json 'src/**/*.ts'",
-    "lint:fix": "npm lint --fix"
-  }
-  ```
+    ```json
+    {
+      "lint": "tslint --project tsconfig.json 'src/**/*.ts'",
+      "lint:fix": "npm lint --fix"
+    }
+    ```
 
 ## IDE Configuration
 
