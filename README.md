@@ -91,7 +91,6 @@ Individual linting rules cna be overridden by specifying the updated rule in you
 {
   "extends": "./node_modules/@node-ts/code-standards/tslint.json",
   "rules": {
-    // Override the default semicolon rule from "never" to "always"
     "semicolon": [true, "always"]
   }
 }
@@ -107,7 +106,6 @@ For example:
 {
   "extends": "./node_modules/@node-ts/code-standards/tsconfig.json",
   "compilerOptions": {
-    // Target es6 instead of es2017
     "target": "es6",
     "lib": ["es7"]
   }
