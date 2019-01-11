@@ -1,6 +1,6 @@
 {
   "name": "@node-ts/code-standards",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": "github:node-ts/code-standards",
   "description": "A sane and opinionated set of linting rules for TypeScript",
   "scripts": {
