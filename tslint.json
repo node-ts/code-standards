@@ -54,7 +54,7 @@
     "ordered-imports": false,
     "prefer-conditional-expression": false,
     "radix": true,
-    "file-name-casing": [true, "pascal-case"],
+    "file-name-casing": [true, "kebab-case"],
     "eofline": true,
     "max-line-length": [true, 120],
     "ban-comma-operator": true,
@@ -71,7 +71,6 @@
     "completed-docs": false, // Should be enabled for domain/busines logic packages
     "curly": true,
     "cyclomatic-complexity": [true, 20],
-    "defocus": true,
     "forin": true,
     "import-blacklist": [
       true,
